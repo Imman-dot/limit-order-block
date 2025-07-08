@@ -1,1 +1,5 @@
-# lob
+- src/     : Python scripts (e.g. fetch_lob.py, order_book.py)
+- data/    : saved order-book CSVs (bids/asks)
+- tests/   : unit tests for matching logic
+- figures/ : depth snapshots, PnL plots
+- Project path: (e.g.) C:\Users\<you>\Projects\lob_sim
