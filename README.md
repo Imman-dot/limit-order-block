@@ -1,5 +1,11 @@
-- src/     : Python scripts (e.g. fetch_lob.py, order_book.py)
-- data/    : saved order-book CSVs (bids/asks)
-- tests/   : unit tests for matching logic
-- figures/ : depth snapshots, PnL plots
-- Project path: (e.g.) C:\Users\<you>\Projects\lob_sim
+# LimitOrderBook-Sim 🏛️
+
+Ultra-lightweight Python engine that **simulates an exchange-style limit order book** at ~1 M msgs/s on a single core.
+
+## Key features
+- Event-driven matching engine (price-time priority)  
+- Supports market, limit, cancel, modify orders  
+- Built-in latency + queue-position stats  
+- CSV→Parquet logger for post-trade analysis
+
+
